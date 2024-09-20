@@ -1,5 +1,5 @@
 -- Gui to Lua
--- Version: 3.3
+-- Version: 1.5
 
 -- Instances:
 
@@ -687,7 +687,7 @@ button_9.BorderSizePixel = 3
 button_9.Position = UDim2.new(0, 0, 0.424836606, 0)
 button_9.Size = UDim2.new(0, 71, 0, 25)
 button_9.Font = Enum.Font.SourceSans
-button_9.Text = "Illuminati"
+button_9.Text = "Phantom X"
 button_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 button_9.TextSize = 14.000
 
@@ -711,7 +711,7 @@ button_11.BorderSizePixel = 3
 button_11.Position = UDim2.new(0, 0, 0.506535947, 0)
 button_11.Size = UDim2.new(0, 71, 0, 25)
 button_11.Font = Enum.Font.SourceSans
-button_11.Text = "Executor"
+button_11.Text = "Internal RC7"
 button_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 button_11.TextSize = 14.000
 
@@ -1527,7 +1527,7 @@ button_63.TextSize = 14.000
 creds.Name = "creds"
 creds.Parent = page4
 creds.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-creds.BorderColor3 = Color3.fromRGB(255, 0, 0)
+creds.BorderColor3 = Color3.fromRGB(0, 0, 255)
 creds.BorderSizePixel = 3
 creds.Position = UDim2.new(0.5, 0, 0, 0)
 creds.Size = UDim2.new(0, 149, 0, 306)
@@ -1998,7 +1998,7 @@ local function XHAG_fake_script() -- button_9.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/jointeamck/5d8a45ea83d64db757182c7fae4caeae/raw/27d5fe5866fc61208fead93a7caeeb854f1c1be4/Illuminati%2520Laser%2520Fling",true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/supersigmin/coolguiedit/refs/heads/main/phantomhub%20fix"))()
 	end)
 end
 coroutine.wrap(XHAG_fake_script)()
@@ -2018,7 +2018,7 @@ local function FJHJF_fake_script() -- button_11.LocalScript
 	local button = script.Parent
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://gist.githubusercontent.com/jointeamck/c1c6ad86b743343aca463a0963c028a5/raw/cb40c5b77119cb52b60428dc3e112a4b479fc258/qipu's%2520Executor%2520(fixed)"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
 	end)
 end
 coroutine.wrap(FJHJF_fake_script)()
