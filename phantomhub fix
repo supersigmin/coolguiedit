@@ -1,0 +1,433 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local phantomXV3 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Topbar = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local R6 = Instance.new("TextButton")
+local Page1 = Instance.new("Frame")
+local Zombie = Instance.new("TextButton")
+local GaleFighter = Instance.new("TextButton")
+local T0PK3KV30 = Instance.new("TextButton")
+local T0PK3KV50 = Instance.new("TextButton")
+local c00lguiV21 = Instance.new("TextButton")
+local InsaneGenocidal = Instance.new("TextButton")
+local Page1_2 = Instance.new("TextLabel")
+local Select = Instance.new("TextButton")
+local Select2 = Instance.new("TextButton")
+local Page2 = Instance.new("Frame")
+local DesertEagle = Instance.new("TextButton")
+local Hanger = Instance.new("TextButton")
+local KidnapVan = Instance.new("TextButton")
+local RoadRogue = Instance.new("TextButton")
+local Titan = Instance.new("TextButton")
+local RevolverSuicide = Instance.new("TextButton")
+local Page2_2 = Instance.new("TextLabel")
+
+--Properties:
+
+phantomXV3.Name = "phantomXV3"
+phantomXV3.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+phantomXV3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = phantomXV3
+Main.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Main.BackgroundTransparency = 0.250
+Main.BorderColor3 = Color3.fromRGB(67, 67, 67)
+Main.BorderSizePixel = 4
+Main.Position = UDim2.new(0.40476191, 0, 0.264775425, 0)
+Main.Size = UDim2.new(0, 293, 0, 367)
+Main.Active = true
+Main.Draggable = true
+
+Topbar.Name = "Topbar"
+Topbar.Parent = Main
+Topbar.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Topbar.BackgroundTransparency = 0.250
+Topbar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Topbar.BorderSizePixel = 0
+Topbar.Size = UDim2.new(0, 293, 0, 32)
+Topbar.Font = Enum.Font.ArialBold
+Topbar.Text = "Phantom X V3"
+Topbar.TextColor3 = Color3.fromRGB(255, 255, 255)
+Topbar.TextSize = 14.000
+
+Info.Name = "Info"
+Info.Parent = Main
+Info.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.129692838, 0, 0.0871934593, 0)
+Info.Size = UDim2.new(0, 213, 0, 20)
+Info.Font = Enum.Font.ArialBold
+Info.Text = "This script made by Alif (rexecute if broken)"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextSize = 10.000
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.887372017, 0, 0, 0)
+Close.Size = UDim2.new(0, 31, 0, 32)
+Close.Font = Enum.Font.Arial
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 22.000
+
+R6.Name = "R6"
+R6.Parent = Main
+R6.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+R6.BackgroundTransparency = 1.000
+R6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+R6.BorderSizePixel = 0
+R6.Position = UDim2.new(0.00341296918, 0, 0, 0)
+R6.Size = UDim2.new(0, 37, 0, 32)
+R6.Font = Enum.Font.Arial
+R6.Text = "R6"
+R6.TextColor3 = Color3.fromRGB(255, 255, 255)
+R6.TextSize = 22.000
+
+Page1.Name = "Page1"
+Page1.Parent = Main
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0, 0, 0.0871934593, 0)
+Page1.Size = UDim2.new(0, 293, 0, 335)
+Page1.Visible = false
+
+Zombie.Name = "Zombie"
+Zombie.Parent = Page1
+Zombie.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Zombie.BackgroundTransparency = 0.400
+Zombie.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Zombie.BorderSizePixel = 0
+Zombie.Position = UDim2.new(0.0716723576, 0, 0.225499213, 0)
+Zombie.Size = UDim2.new(0, 250, 0, 41)
+Zombie.Font = Enum.Font.Arial
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(255, 255, 255)
+Zombie.TextSize = 22.000
+Zombie.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://pastefy.app/w7KnPY70/raw'),true))()
+end)
+
+GaleFighter.Name = "Gale Fighter"
+GaleFighter.Parent = Page1
+GaleFighter.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+GaleFighter.BackgroundTransparency = 0.400
+GaleFighter.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GaleFighter.BorderSizePixel = 0
+GaleFighter.Position = UDim2.new(0.0716723576, 0, 0.0795233399, 0)
+GaleFighter.Size = UDim2.new(0, 250, 0, 41)
+GaleFighter.Font = Enum.Font.Arial
+GaleFighter.Text = "Gale Fighter"
+GaleFighter.TextColor3 = Color3.fromRGB(255, 255, 255)
+GaleFighter.TextSize = 22.000
+GaleFighter.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Gale-Fighter-FE-13628"))()
+end)
+
+T0PK3KV30.Name = "T0PK3K V3.0"
+T0PK3KV30.Parent = Page1
+T0PK3KV30.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+T0PK3KV30.BackgroundTransparency = 0.400
+T0PK3KV30.BorderColor3 = Color3.fromRGB(0, 0, 0)
+T0PK3KV30.BorderSizePixel = 0
+T0PK3KV30.Position = UDim2.new(0.0716723576, 0, 0.516670048, 0)
+T0PK3KV30.Size = UDim2.new(0, 250, 0, 41)
+T0PK3KV30.Font = Enum.Font.Arial
+T0PK3KV30.Text = "T0PK3K V3.0"
+T0PK3KV30.TextColor3 = Color3.fromRGB(255, 255, 255)
+T0PK3KV30.TextSize = 22.000
+T0PK3KV30.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/LgBc0pqx'),true))()
+end)
+
+T0PK3KV50.Name = "T0PK3K V5.0"
+T0PK3KV50.Parent = Page1
+T0PK3KV50.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+T0PK3KV50.BackgroundTransparency = 0.400
+T0PK3KV50.BorderColor3 = Color3.fromRGB(0, 0, 0)
+T0PK3KV50.BorderSizePixel = 0
+T0PK3KV50.Position = UDim2.new(0.0716723576, 0, 0.661604702, 0)
+T0PK3KV50.Size = UDim2.new(0, 250, 0, 41)
+T0PK3KV50.Font = Enum.Font.Arial
+T0PK3KV50.Text = "T0PK3K V5.0"
+T0PK3KV50.TextColor3 = Color3.fromRGB(255, 255, 255)
+T0PK3KV50.TextSize = 22.000
+T0PK3KV50.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/h1TN1kij'))() 
+end)
+
+c00lguiV21.Name = "c00lgui V2.1"
+c00lguiV21.Parent = Page1
+c00lguiV21.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+c00lguiV21.BackgroundTransparency = 0.400
+c00lguiV21.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lguiV21.BorderSizePixel = 0
+c00lguiV21.Position = UDim2.new(0.0716723576, 0, 0.371214718, 0)
+c00lguiV21.Size = UDim2.new(0, 250, 0, 41)
+c00lguiV21.Font = Enum.Font.Arial
+c00lguiV21.Text = "c00lgui V2.1"
+c00lguiV21.TextColor3 = Color3.fromRGB(255, 255, 255)
+c00lguiV21.TextSize = 22.000
+c00lguiV21.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-c00lgui-FE-v21-11522"))() 
+end)
+
+InsaneGenocidal.Name = "Insane Genocidal"
+InsaneGenocidal.Parent = Page1
+InsaneGenocidal.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+InsaneGenocidal.BackgroundTransparency = 0.400
+InsaneGenocidal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InsaneGenocidal.BorderSizePixel = 0
+InsaneGenocidal.Position = UDim2.new(0.0716723576, 0, 0.807035625, 0)
+InsaneGenocidal.Size = UDim2.new(0, 250, 0, 41)
+InsaneGenocidal.Font = Enum.Font.Arial
+InsaneGenocidal.Text = "Insane Genocidal"
+InsaneGenocidal.TextColor3 = Color3.fromRGB(255, 255, 255)
+InsaneGenocidal.TextSize = 22.000
+InsaneGenocidal.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://paste.ee/r/eUJ8z'))() 
+end)
+
+Page1_2.Name = "Page1"
+Page1_2.Parent = Page1
+Page1_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Page1_2.BackgroundTransparency = 1.000
+Page1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page1_2.BorderSizePixel = 0
+Page1_2.Position = UDim2.new(0.296928316, 0, 0.937939823, 0)
+Page1_2.Size = UDim2.new(0, 123, 0, 20)
+Page1_2.Font = Enum.Font.ArialBold
+Page1_2.Text = "Page 1"
+Page1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1_2.TextSize = 10.000
+
+Select.Name = "Select"
+Select.Parent = Main
+Select.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Select.BackgroundTransparency = 0.400
+Select.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Select.BorderSizePixel = 0
+Select.Position = UDim2.new(0.716723561, 0, 0.943231344, 0)
+Select.Size = UDim2.new(0, 17, 0, 19)
+Select.Font = Enum.Font.Arial
+Select.Text = ">"
+Select.TextColor3 = Color3.fromRGB(255, 255, 255)
+Select.TextSize = 22.000
+
+Select2.Name = "Select2"
+Select2.Parent = Main
+Select2.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Select2.BackgroundTransparency = 0.400
+Select2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Select2.BorderSizePixel = 0
+Select2.Position = UDim2.new(0.238907844, 0, 0.945956111, 0)
+Select2.Size = UDim2.new(0, 17, 0, 19)
+Select2.Font = Enum.Font.Arial
+Select2.Text = "<"
+Select2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Select2.TextSize = 22.000
+
+Page2.Name = "Page2"
+Page2.Parent = Main
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2.BorderSizePixel = 0
+Page2.Position = UDim2.new(0, 0, 0.0871934593, 0)
+Page2.Size = UDim2.new(0, 293, 0, 314)
+Page2.Visible = false
+
+DesertEagle.Name = "Desert Eagle"
+DesertEagle.Parent = Page2
+DesertEagle.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+DesertEagle.BackgroundTransparency = 0.400
+DesertEagle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DesertEagle.BorderSizePixel = 0
+DesertEagle.Position = UDim2.new(0.0716723576, 0, 0.0835489631, 0)
+DesertEagle.Size = UDim2.new(0, 250, 0, 41)
+DesertEagle.Font = Enum.Font.Arial
+DesertEagle.Text = "Desert Eagle"
+DesertEagle.TextColor3 = Color3.fromRGB(255, 255, 255)
+DesertEagle.TextSize = 22.000
+DesertEagle.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/ddmT9nXR',true))()
+end)
+
+Hanger.Name = "Hanger"
+Hanger.Parent = Page2
+Hanger.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Hanger.BackgroundTransparency = 0.400
+Hanger.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Hanger.BorderSizePixel = 0
+Hanger.Position = UDim2.new(0.0716723576, 0, 0.236415207, 0)
+Hanger.Size = UDim2.new(0, 250, 0, 41)
+Hanger.Font = Enum.Font.Arial
+Hanger.Text = "Hanger"
+Hanger.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hanger.TextSize = 22.000
+Hanger.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/jXTbqHHL'))() 
+end)
+
+KidnapVan.Name = "Kidnap Van"
+KidnapVan.Parent = Page2
+KidnapVan.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+KidnapVan.BackgroundTransparency = 0.400
+KidnapVan.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KidnapVan.BorderSizePixel = 0
+KidnapVan.Position = UDim2.new(0.0716723576, 0, 0.392466158, 0)
+KidnapVan.Size = UDim2.new(0, 250, 0, 41)
+KidnapVan.Font = Enum.Font.Arial
+KidnapVan.Text = "Kidnap Van"
+KidnapVan.TextColor3 = Color3.fromRGB(255, 255, 255)
+KidnapVan.TextSize = 22.000
+KidnapVan.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/vP2D2vnC'))()
+end)
+
+RoadRogue.Name = "Road Rogue"
+RoadRogue.Parent = Page2
+RoadRogue.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+RoadRogue.BackgroundTransparency = 0.400
+RoadRogue.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RoadRogue.BorderSizePixel = 0
+RoadRogue.Position = UDim2.new(0.0716723576, 0, 0.548517108, 0)
+RoadRogue.Size = UDim2.new(0, 250, 0, 41)
+RoadRogue.Font = Enum.Font.Arial
+RoadRogue.Text = "Road Rogue"
+RoadRogue.TextColor3 = Color3.fromRGB(255, 255, 255)
+RoadRogue.TextSize = 22.000
+RoadRogue.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/local-script/showcases/main/road-rogue',true))()
+end)
+
+Titan.Name = "Titan"
+Titan.Parent = Page2
+Titan.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Titan.BackgroundTransparency = 0.400
+Titan.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Titan.BorderSizePixel = 0
+Titan.Position = UDim2.new(0.0648464188, 0, 0.704568088, 0)
+Titan.Size = UDim2.new(0, 250, 0, 41)
+Titan.Font = Enum.Font.Arial
+Titan.Text = "Titan"
+Titan.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titan.TextSize = 22.000
+Titan.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Tf8zhZ4w',true))()
+end)
+
+RevolverSuicide.Name = "Revolver Suicide"
+RevolverSuicide.Parent = Page2
+RevolverSuicide.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+RevolverSuicide.BackgroundTransparency = 0.400
+RevolverSuicide.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RevolverSuicide.BorderSizePixel = 0
+RevolverSuicide.Position = UDim2.new(0.0648464188, 0, 0.86698848, 0)
+RevolverSuicide.Size = UDim2.new(0, 250, 0, 41)
+RevolverSuicide.Font = Enum.Font.Arial
+RevolverSuicide.Text = "Revolver Suicide"
+RevolverSuicide.TextColor3 = Color3.fromRGB(255, 255, 255)
+RevolverSuicide.TextSize = 22.000
+RevolverSuicide.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/pqaVQa3T',true))()
+end)
+
+Page2_2.Name = "Page2"
+Page2_2.Parent = Page2
+Page2_2.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Page2_2.BackgroundTransparency = 1.000
+Page2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Page2_2.BorderSizePixel = 0
+Page2_2.Position = UDim2.new(0.296928316, 0, 1.001634, 0)
+Page2_2.Size = UDim2.new(0, 123, 0, 20)
+Page2_2.Font = Enum.Font.ArialBold
+Page2_2.Text = "Page 2"
+Page2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2_2.TextSize = 10.000
+
+-- Scripts:
+
+local function NEOC_fake_script() -- Close.Close 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(NEOC_fake_script)()
+local function DCOOLV_fake_script() -- R6.LocalScript 
+	local script = Instance.new('LocalScript', R6)
+
+	-- Get the TextButton
+	local textButton = script.Parent
+	
+	-- Function to change character to R6
+	local function changeToR6()
+		local player = game.Players.LocalPlayer
+		if not player then return end
+	
+		-- Get the character
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		-- Ensure the character is loaded
+		if not character then return end
+	
+		-- Save the current character position and orientation
+		local position = character.PrimaryPart and character.PrimaryPart.Position or Vector3.new(0, 0, 0)
+		local orientation = character.PrimaryPart and character.PrimaryPart.Orientation or Vector3.new(0, 0, 0)
+	
+		-- Change the character's Humanoid to R6
+		game:GetService("Players"):SetCharacterAppearance("R6")
+	
+		-- Wait for the new character to load
+		character = player.Character or player.CharacterAdded:Wait()
+	
+		-- Move the new character to the saved position and orientation
+		if character.PrimaryPart then
+			character:SetPrimaryPartCFrame(CFrame.new(position) * CFrame.Angles(math.rad(orientation.X), math.rad(orientation.Y), math.rad(orientation.Z)))
+		end
+	end
+	
+	-- Connect the button click event to change the avatar to R6
+	textButton.MouseButton1Click:Connect(changeToR6)
+	
+end
+coroutine.wrap(DCOOLV_fake_script)()
+local function RCBKPB_fake_script() -- Select.LocalScript 
+	local script = Instance.new('LocalScript', Select)
+
+	
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Page1.Visible = true
+		script.Parent.Parent.Page2.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(RCBKPB_fake_script)()
+local function VFGHTA_fake_script() -- Select2.LocalScript 
+	local script = Instance.new('LocalScript', Select2)
+
+	
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Page1.Visible = false
+		script.Parent.Parent.Page2.Visible = true
+		wait(0.1)
+	end)
+end
+coroutine.wrap(VFGHTA_fake_script)()
